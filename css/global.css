@@ -4,3 +4,63 @@
     font-weight: 500;
     font-style: normal;
 }
+
+.pagetitle {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style:normal;
+    font-size: xx-large;
+    padding:0;
+    margin:15px;
+}
+
+.titlediv {
+    width:min-content;
+    height:min-content;
+    padding: 5px;
+    margin:15px;
+    border-radius: 25px;
+    background-color: lightgray;
+    cursor: pointer;
+    user-select: none;
+}
+
+.active{
+    background-image: linear-gradient(to bottom, hsl(0, 0%, 50%), hsl(0, 0%, 69%));
+    cursor: default;
+}
+
+.navbar{
+    text-align: center;
+    position:sticky;
+    top:0;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-image: linear-gradient(to bottom, hsl(0, 0%, 50%), hsl(0, 0%, 69%));
+}
+
+.navbar li{
+    float:left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    text-align: center;
+    border-right: 1px solid #bbb;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-image: linear-gradient(to bottom, hsl(0, 0%, 69%), hsl(0, 0%, 50%));
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}

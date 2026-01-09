@@ -3,27 +3,6 @@ body {
     padding:0;
 }
 
-.pagetitle {
-    font-family: "Comfortaa", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style:normal;
-    font-size: xx-large;
-    padding:0;
-    margin:15px;
-}
-
-.titlediv {
-    width:min-content;
-    height:min-content;
-    padding: 5px;
-    margin-top:20px;
-    border-radius: 25px;
-    background-color: lightgray;
-    cursor: pointer;
-    user-select: none;
-}
-
 .secretlink {
     text-decoration: none;
     color:black;
