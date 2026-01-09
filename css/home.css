@@ -23,3 +23,8 @@ body {
     cursor: pointer;
     user-select: none;
 }
+
+.secretlink {
+    text-decoration: none;
+    color:black;
+}
